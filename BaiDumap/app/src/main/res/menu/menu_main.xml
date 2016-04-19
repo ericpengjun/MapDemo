@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eric.baidumap.MainActivity">
+    <item
+        android:id="@+id/my_place"
+        android:orderInCategory="100"
+        android:title="我的位置"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/srt_trace"
+        android:orderInCategory="200"
+        android:title="开始跟踪"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/end_trace"
+        android:orderInCategory="300"
+        android:title="结束跟踪"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/trace_back"
+        android:orderInCategory="400"
+        android:title="跟踪回放"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/main"
+        android:orderInCategory="400"
+        android:icon="@android:drawable/star_on"
+        android:title="跟踪回放"
+        app:showAsAction="always" />
+</menu>
